@@ -1,0 +1,149 @@
+@font-face{
+    font-family: "NorseBold";
+    src: url("assets/fonts/Norse-Bold.otf") format("opentype");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+#landing-image{
+    height: 100vh;
+    width: 500px;
+    position: relative;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+ }
+
+.logo-box{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    height: 100px;
+    width: 500px;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#logo{
+    width: 50px;
+
+}
+
+.odin-text{
+    font-family: "NorseBold";
+    color: white;
+    font-size: 80px;
+    margin-left: 10px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.credits{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    opacity: 0.7;
+    left: 145px;
+}
+
+a{
+    color: white;
+    text-decoration: underline;
+}
+
+.right{
+    background-color: rgb(237, 237, 237);
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.statement, .cta{
+    padding-right: 250px;
+    padding-left: 50px;
+}
+
+.statement{
+    padding-top: 150px;
+}
+
+.cta{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+#inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3em;
+    width: 100%;
+    padding-right: 100px;
+}
+
+#inputs label {
+    grid-column: span 1;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#inputs input {
+    grid-column: span 1;
+    width: 100%;
+}
+
+.form-container {
+    max-width: 100vw;
+    margin: 0 auto;
+    background-color: white;
+    padding: 50px;
+    padding-top: 5px;
+    box-shadow : 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+input:focus{
+    outline: 3px solid rgba(34, 110, 218, 0.299);
+}
+
+.red {
+    outline: 1px solid #f23;
+}
+
+.submit-section{
+    padding-left: 50px;
+}
+
+button{
+    background-color: #556B2F;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: #6d956d;
+}
+
+button:active{
+    scale: 0.9;
+}
+
+#log-in{
+ color: #556B2F;
+ font-weight: 700;
+}
